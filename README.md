@@ -32,15 +32,25 @@ The optimal window size has been found to be 60 and the optimal number of LSTM u
 The outputs of 5 epochs for training are shown below:-
 
 Epoch 1/5
+
 17196/17196 [==============================] - 42s 2ms/step - loss: 0.0109
+
 Epoch 2/5
+
 17196/17196 [==============================] - 34s 2ms/step - loss: 0.0059
+
 Epoch 3/5
+
 17196/17196 [==============================] - 25s 1ms/step - loss: 0.0057
+
 Epoch 4/5
+
 17196/17196 [==============================] - 24s 1ms/step - loss: 0.0057
+
 Epoch 5/5
+
 17196/17196 [==============================] - 27s 2ms/step - loss: 0.0057
+
 Test RMSE:  0.09232424133805875
 
 ### References:-
