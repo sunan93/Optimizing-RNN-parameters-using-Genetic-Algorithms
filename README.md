@@ -1,4 +1,4 @@
-# Optimizing LSTM model parameters using Genetic Algorithms
+# Optimizing LSTM parameters using Genetic Algorithms
 
 ### Introduction:-
 The aim of the project is to optimize the parameters of a recurrent neural network to obtain the best configuration of parameters. Genetic algorithm has been used to fine tune parameters used to train an RNN for wind power forecasting. The best number of LSTM units and ther optimal window size to be used for prediction have been found. For deep learning, Keras library is used and for Genetic Algorithms, DEAP library has been used. 
@@ -30,6 +30,7 @@ A basic LSTM cell in keras is used to create a chain of LSTM cells. The root mea
 The optimal window size has been found to be 47 and the optimal number of LSTM units is 9.
 
 The outputs of 5 epochs for training are shown below:-
+
 Epoch 1/5
 
 17209/17209 [==============================] - 21s 1ms/step - loss: 0.0190
@@ -54,6 +55,6 @@ Test RMSE:  0.09710418381525192
 
 ### References:-
 1. This project is an implementation of this [blog](http://aqibsaeed.github.io/2017-08-11-genetic-algorithm-for-optimizing-rnn/). The code has been referred from here and the dataset can be downloaded from [here](https://www.kaggle.com/c/GEF2012-wind-forecasting/data).
-2. DEAP Package[deap](http://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxOrdered)
-3. Tutorial on [Genetic AlgorithmsGA](https://www.tutorialspoint.com/genetic_algorithms/genetic_algorithms_mutation.htm)
+2. DEAP Package [deap](http://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxOrdered)
+3. Tutorial on [Genetic Algorithms](https://www.tutorialspoint.com/genetic_algorithms/genetic_algorithms_mutation.htm)
 4. Blog on [GA](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol1/hmw/article1.html)
